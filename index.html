@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Максим Авдеев</title>
+        <meta content="" name="description">
+        <meta content="" name="author">
+        <meta content="" name="keywords">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- OwlCarousel (слайдеры карусели) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
+        <!-- Slick и Slick Theme-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+        <!-- Ionicons (векторные иконочки) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullPage.min.css">
+
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+        <!-- Lity (модальные окна) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.2.2/lity.min.css">
+        <!-- Swiper (плагин для свайпов) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/css/swiper.min.css">
+        
+        <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7COswald:300,400,700" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~ ПРЕЛОАДЕР ~~~~~~~~~~~~~~~~~~~~~~ -->
+        <div class="preloader-bg"></div>
+        <div id="preloader">
+            <div id="preloader-status">
+                <div class="preloader-position loader">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~ ЛОГОТИП ~~~~~~~~~~~~~~~~~~~~~~ -->
+        <a class="logo element-color-switch">
+        <div class="logo-img fadeIn-element"></div></a>
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~ НАВИГАЦИЯ ~~~~~~~~~~~~~~~~~~~~~~ -->
+        <div class="navigation-fire navigation-icon-wrapper fadeIn-element">
+            <div class="navigation-icon" id="navigation-icon">
+                <span class="line"></span> <span class="line"></span> <span class="line"></span>
+            </div>
+        </div>
+        <nav class="navigation-menu">
+            <div class="navigation-menu-img-wrapper">
+                <div class="navigation-menu-img">
+                    <div class="menu-img active" data-bg="img/menu/menu-1.jpg" data-ref="menu-1"></div>
+                    <div class="menu-img" data-bg="img/menu/menu-2.jpg" data-ref="menu-2"></div>
+                    <div class="menu-img" data-bg="img/menu/menu-3.jpg" data-ref="menu-3"></div>
+                    <div class="menu-img" data-bg="img/menu/menu-4.jpg" data-ref="menu-4"></div>
+                    <div class="menu-img" data-bg="img/menu/menu-5.jpg" data-ref="menu-5"></div>
+                    <div class="menu-img" data-bg="img/menu/menu-6.jpg" data-ref="menu-6"></div>
+                </div>
+                <div class="center-container-menu">
+                    <div class="center-block-menu">
+                        <div class="navigation-menu-txt">
+                            <ul class="menu brackets">
+                                <li>
+                                    <a class="menu-state active" data-ref="menu-1" href="#home">Главная</a>
+                                </li>
+                                <li>
+                                    <a class="menu-state" data-ref="menu-2" href="#about">Обо мне</a>
+                                </li>
+                                <li>
+                                    <a class="menu-state" data-ref="menu-3" href="#services">Услуги</a>
+                                </li>
+                                <li>
+                                    <a class="menu-state" data-ref="menu-4" href="#works">Портфолио</a>
+                                </li>
+                                <li class="last">
+                                    <a class="menu-state" data-ref="menu-6" href="#contact">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~ НАЧАЛЬНЫЙ ЭКРАН ~~~~~~~~~~~~~~~~~~~~~~ -->
+        <div id="fullpage">
+            <div class="section" id="section0">
+                <div class="hero-fullscreen">
+                    <div class="hero-fullscreen-FIX">
+                        <div class="hero-bg">
+                            <div class="swiper-container-wrapper">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-inner" data-swiper-parallax="50%">
+                                                <div class="swiper-slide-inner-bg bg-img-1"></div>
+                                                <div class="overlay overlay-dark-60"></div>
+                                                <div class="swiper-slide-inner-txt">
+                                                    <div class="intro-subtitle">Делаю каждый кадр особенным, превращая его в</div>
+                                                    <div class="intro-title">Искусство</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-inner" data-swiper-parallax="50%">
+                                                <div class="swiper-slide-inner-bg bg-img-2"></div>
+                                                <div class="overlay overlay-dark-60"></div>
+                                                <div class="swiper-slide-inner-txt">
+                                                    <div class="intro-subtitle">Я фиксирую моменты, Вы создаёте</div>
+                                                    <div class="intro-title">Истории</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-inner" data-swiper-parallax="50%">
+                                                <div class="swiper-slide-inner-bg bg-img-3"></div>
+                                                <div class="overlay overlay-dark-60"></div>
+                                                <div class="swiper-slide-inner-txt">
+                                                    <div class="intro-subtitle">Сохраняю ваши самые драгоценные моменты, делая их</div>
+                                                    <div class="intro-title">Бесценными</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide-inner" data-swiper-parallax="50%">
+                                                <div class="swiper-slide-inner-bg bg-img-4"></div>
+                                                <div class="overlay overlay-dark-60"></div>
+                                                <div class="swiper-slide-inner-txt">
+                                                    <div class="intro-subtitle">Превращаю волшебные моменты в</div>
+                                                    <div class="intro-title">Чудеса</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ~~~~~~~~~~~~~~~~~~~~~~ стрелочки ~~~~~~~~~~~~~~~~~~~~~~ -->
+                            <div class="hero-slider-bg-controls fadeIn-element">
+                                <div class="swiper-slide-controls slide-prev">
+                                    <div class="ion-ios-arrow-left"></div>
+                                </div>
+                                <div class="swiper-slide-controls slide-next">
+                                    <div class="ion-ios-arrow-right"></div>
+                                </div>
+                            </div>
+                            <!-- ~~~~~~~~~~~~~~~~~~~~~~ паузик ~~~~~~~~~~~~~~~~~~~~~~ -->
+                            <div class="swiper-slide-pagination fadeIn-element"></div>
+                            <div class="swiper-slide-controls-play-pause-wrapper swiper-slide-controls-play-pause slider-on-off fadeIn-element">
+                                <div class="slider-on-off-switch">
+                                    <i class="ion-ios-play"></i>
+                                </div>
+                                <div class="slider-progress-bar">
+                                    <span><svg class="circle-svg" height="50" width="50">
+                                    <circle class="circle" cx="25" cy="25" fill="none" r="24" stroke="#e0e0e0" stroke-width="2"></circle></svg></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-credits fadeIn-element">
+                    <a class="link-underline" href="#">Maxim Avdeev</a> &copy; Все права защищены.
+                </div>
+
+                <!-- ~~~~~~~~~~~~~~~~~~~~~~ СОЦ. СЕТИ ~~~~~~~~~~~~~~~~~~~~~~ -->
+                <div class="social-icons-wrapper fadeIn-element">
+                    <ul class="social-icons">
+                        <li class="social-icon">
+                            <a class="ion-social-youtube" href="#"></a>
+                        </li>
+                        <li class="social-icon">
+                            <a class="ion-social-instagram" href="#"></a>
+                        </li>
+                        <li class="social-icon">
+                            <a class="ion-social-pinterest" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scroll-indicator-wrapper">
+                    <div class="scroll-indicator"></div>
+                </div>
+            </div>
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~ ОБО МНЕ ~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="section" id="section1">
+                <div class="container-fluid sections">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 nopadding">
+                            <div class="overlay overlay-inverse-dark-35">
+                                <div class="about-bg-wrapper">
+                                    <div class="about-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 nopadding">
+                            <div class="slick-about">
+                                <div class="about-content-wrapper">
+                                    <div class="about-content">
+                                        <div class="about-content-inner">
+                                            <h2 class="section-heading section-heading-light spacer-line-vertical-light">Обо мне</h2>
+                                            <p class="about-txt">
+                                                Привет! Меня зовут Максим Авдеев, и я – фотограф с большой страстью к видеосъемке.
+                                                Моя история в мире фотографии началась задолго до того, как я взял в руки 
+                                                свой первый фотоаппарат. Еще с детства я увлекался искусством захватывать моменты,
+                                                запечатлевая красоту и эмоции в каждом кадре.<br><br>С годами эта страсть превратилась в 
+                                                профессиональное призвание, и теперь я с удовольствием создаю уникальные образы и
+                                                видеоролики, заставляющие зрителя задуматься и чувствовать. 
+                                                Мои работы – это не просто фотографии или видео, это целые истории, которые оживают перед глазами зрителя. 
+                                                <br><br>Я стремлюсь к тому, чтобы каждая моя съемка стала незабываемым путешествием в мир творчества, 
+                                                где каждый кадр пронизан магией и вдохновением.
+                                                <a class="link-underline" href="#">Добро пожаловать в мой уникальный мир изображений!</a>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-content-wrapper">
+                                    <div class="about-content">
+                                        <div class="about-content-inner">
+                                            <h3></h3>
+                                            <div class="show-skillbar">
+                                                <div class="skillbar" data-percent="100">
+                                                    <span class="skillbar-title">Довольные клиенты</span>
+                                                    <div class="skillbar-bar"></div><span class="skill-bar-percent"></span>
+                                                </div>
+                                                <div class="skillbar" data-percent="90">
+                                                    <span class="skillbar-title">Клиенты рекомендуют меня своим близким</span>
+                                                    <div class="skillbar-bar"></div><span class="skill-bar-percent"></span>
+                                                </div>
+                                                <div class="skillbar" data-percent="80">
+                                                    <span class="skillbar-title">Мои фотографии были отмечены в изданиях после их публикации</span>
+                                                    <div class="skillbar-bar"></div><span class="skill-bar-percent"></span>
+                                                </div>
+                                                <div class="skillbar" data-percent="80">
+                                                    <span class="skillbar-title">Мои работы получили высокие оценки и рекомендации от экспертов в области фотографии</span>
+                                                    <div class="skillbar-bar"></div><span class="skill-bar-percent"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ~~~~~~~~~~~~~~~~~~~~~~ ДОСТИЖЕНИЯ ~~~~~~~~~~~~~~~~~~~~~~ -->
+                                <div class="about-content-wrapper">
+                                    <div class="about-content">
+                                        <div class="about-content-inner">
+                                            <h3>Достижения</h3>
+                                            <div class="facts-counter-wrapper">
+                                                <div class="col-xs-6 col-sm-6 col-md-3">
+                                                    <div class="facts-counter-number">8</div>
+                                                    <div class="facts-counter-description">
+                                                        <i class="ion-ios-timer-outline facts-counter-description-img"></i> <span class="facts-counter-title">Лет работы</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6 col-md-3">
+                                                    <div class="facts-counter-number">368</div>
+                                                    <div class="facts-counter-description">
+                                                        <i class="ion-ios-photos-outline facts-counter-description-img"></i> <span class="facts-counter-title">Фотосессий</span>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix visible-xs-block"></div>
+                                                <div class="col-xs-6 col-sm-6 col-md-3">
+                                                    <div class="facts-counter-number facts-counter-add-space">300</div>
+                                                    <div class="facts-counter-description">
+                                                        <i class="ion-ios-world-outline facts-counter-description-img"></i> <span class="facts-counter-title">Клиентов</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-6 col-sm-6 col-md-3">
+                                                    <div class="facts-counter-number facts-counter-add-space">15000</div>
+                                                    <div class="facts-counter-description">
+                                                        <i class="ion-ios-people facts-counter-description-img"></i> <span class="facts-counter-title">Подписчиков</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~ УСЛУГИ ~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="section" id="section2">
+                <div class="container-fluid sections">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 nopadding">
+                            <div class="services-container element-color-switch">
+                                <div class="center-container">
+                                    <div class="center-block">
+                                        <h2 class="section-heading section-heading-dark spacer-line-vertical-dark">Фотосессия</h2>
+                                        <p class="services-txt-dark">
+                                            Индивидуальные фотосессии, позволяющие выразить вашу личность и стиль. Работаю как на природе, так и в студии, создавая комфортную атмосферу.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 nopadding">
+                            <div class="slick-services overlay overlay-inverse-dark-35">
+                                <div class="services-bg-wrapper">
+                                    <div class="services-bg services-bg-1"></div>
+                                </div>
+                                <div class="services-bg-wrapper">
+                                    <div class="services-bg services-bg-2"></div>
+                                </div>
+                                <div class="services-bg-wrapper">
+                                    <div class="services-bg services-bg-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-sm-push-6 nopadding">
+                            <div class="services-container services-container-dark">
+                                <div class="center-container">
+                                    <div class="center-block">
+                                        <h2 class="section-heading section-heading-light spacer-line-vertical-light">
+                                            Профессиональная обработка
+                                        </h2>
+                                        <p class="services-txt">
+                                            Профессиональная обработка изображений для подчеркивания их красоты и улучшения визуального впечатления. Включает ретушь, цветокоррекцию и другие техники для достижения идеального результата.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-sm-pull-6 nopadding">
+                            <div class="slick-services overlay overlay-inverse-dark-35">
+                                <div class="services-bg-wrapper">
+                                    <div class="services-bg services-bg-4"></div>
+                                </div>
+                                <div class="services-bg-wrapper">
+                                    <div class="services-bg services-bg-5"></div>
+                                </div>
+                                <div class="services-bg-wrapper">
+                                    <div class="services-bg services-bg-6"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~ ПОРТФОЛИО ~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="section" id="section3">
+                <div class="works-page-img-wrapper">
+                    <div class="owl-carousel" id="works-page-img-carousel">
+                        <div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-1 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>ИСКРЕННИЕ<br>ЭМОЦИИ</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Дети</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works1.jpg" title="Дети">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-2 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Дорогие сердцу<br>моменты</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Питомцы</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works2.jpg" title="Дорогие сердцу моменты">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-3 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Волшебные<br>мгновения</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Вау вау вау</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works3.jpg" title="Вау вау вау">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-4 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Любовь витает<br>в воздухе</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Любовная история</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works4.jpg" title="Любовная история">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-5 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Лучшие<br>воспоминания</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Свадебные фотосессии</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works5.jpg" title="Свадебные фотосессии">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-6 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Любимые</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Семейные фотосессии</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works6.jpg" title="Семейные фотосессии">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-7 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Недосягаемые<br>высоты</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">
+                                            Съемка дроном
+                                        </div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works7.jpg" title="Съемка дроном">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-8 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Особенные<br>воспоминания</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">
+                                            Съемка мероприятий
+                                        </div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works8.jpg" title="">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-9 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Милые<br>моменты</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Дети</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works9.jpg" title="">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-10 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Памятные<br>фото</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Выпускные</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works10.jpg" title="Выпускные">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-11 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Воплощение<br>фантазии</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Тематические фотосессии</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works11.jpg" title="">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works-page-img-carousel-item works-page-img-carousel-item-12 overlay overlay-inverse-dark-35">
+                                <div class="works-page-img-carousel-wrapper">
+                                    <div class="works-page-img-carousel-text">
+                                        <div class="works-page-img-carousel-title">
+                                            <h4>Красоты<br>меньшего мира</h4>
+                                        </div>
+                                        <div class="works-page-img-carousel-heading">Макро-съемка</div>
+                                        <div class="works-page-img-carousel-content">
+                                            <div class="works-page-img-carousel-spacer-top"></div>
+                                            <a class="c-btn c-btn-works inverse popup-photo" href="img/works/works12.jpg" title="">
+                                                <span>Просмотреть</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~ КОНТАКТЫ ~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="section" id="section5">
+                <div class="container-fluid sections">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 nopadding">
+                            <div class="contact-container element-color-switch contact-reset">
+                                <div class="center-container">
+                                    <div class="center-block">
+                                        <p class="contact-txt">
+                                            <span class="contact-info-mail"><a class="link-underline link-underline-dark" href="mailto:maximavdeev@gmail.com">maximavdeev@gmail.com</a></span>
+                                            <span><a href="tel:+74957873422">+ 375 29 555 66 77</a><br>
+                                            г. Минск, пр-т Независимости 4<br>
+                                            Беларусь</span>
+                                        </p>
+                                        <div class="contact-modal-launcher-wrapper">
+                                            <a class="button-link contact-modal-launcher"><span>Используй форму</span><i class="ion-android-arrow-dropright"></i></a>
+                                        </div>
+                                        <div class="social-icons-contact-wrapper">
+                                            <ul class="social-icons-contact">
+                                                <li class="social-icon">
+                                                    <a class="ion-social-youtube" href="#"></a>
+                                                </li>
+                                                <li class="social-icon">
+                                                    <a class="ion-social-instagram" href="#"></a>
+                                                </li>
+                                                <li class="social-icon">
+                                                    <a class="ion-social-pinterest" href="#"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 nopadding">
+                            <div class="overlay overlay-inverse-dark-35">
+                                <div class="contact-bg-wrapper">
+                                    <div class="contact-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- jQuery UI -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <!-- jquery.countTo -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.1.0/jquery.countTo.min.js"></script>
+        <!-- jquery.appear -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-appear/0.1/jquery.appear.min.js"></script>
+        <!-- jquery-css-skills-bar -->
+        <!-- toggle news content -->
+        <!-- slick -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+        <!-- fullscreeneo -->
+        <!-- Magnific Popup -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- Owl Carousel -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+        <!-- fullPage -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
+        <!-- ScrollMagic -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <!-- core -->
+        <!-- vide -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vide/0.5.1/jquery.vide.min.js"></script>
+        <!-- Swiper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/js/swiper.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/skills-bar.js">
+        </script> 
+        <script src="js/main.js">
+        </script>
+    </body>
+</html>
